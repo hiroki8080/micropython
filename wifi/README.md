@@ -15,8 +15,8 @@ GND --> 抵抗10kΩ --> IO15
 Y1 --> RXD  
 Y2 --> TXD  
 
-
-```コマンド実行例
+##コマンド実行例
+```
 from esp8266 import ESP8266
 e = ESP8266()
 e.write('AT+RST¥r¥n')
